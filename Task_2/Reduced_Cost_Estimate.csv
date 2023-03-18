@@ -1,0 +1,20 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,5891.700000000001,70700.40,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,3363.84,40366.08,USD,"Tenancy (Shared Instances), Operating system (Linux), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Workload (Consistent, Number of instances: 12), Enable monitoring (disabled), Advance EC2 instance (m5.2xlarge), Pricing strategy (), Snapshot Frequency (No snapshot storage)"
+My Estimate,US East (N. Virginia),,VPN Connection,0,567,6804.00,USD,"Working days per month (22), Number of subnet associations (4)"
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,12.8,153.60,USD,"Data transfer out to internet (100 GB per month), Data transfer out to origin (200 GB per month), Number of requests (HTTPS) (300000 per month)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,7.71,92.52,USD,S3 Standard storage (300 GB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,739.5,8874.00,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (100 GB), Quantity (2), Instance type (db.m1.large), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,1200.85,14410.20,USD,Number of Application Load Balancers (2)
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
